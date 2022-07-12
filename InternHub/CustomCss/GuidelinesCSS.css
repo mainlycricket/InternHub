@@ -1,0 +1,22 @@
+﻿#intern-tab, #org-tab {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#intern-guidelines, #org-guidelines {
+    margin-top: 2vh;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 5px;
+}
+
+
+#org-guidelines {
+    display: none;
+}
+
+#intern-guidelines ul li, #org-guidelines ul li {
+    margin-bottom: 0.5vh;
+}

@@ -1,0 +1,155 @@
+﻿#profile-container {
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#head {
+    width: auto;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px 0 10px 0;
+    margin: 0px;
+}
+
+
+#profileHeader {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#profileBody {
+    margin-top: 10px;
+}
+
+#ContentPlaceHolder1_internTitle {
+    margin-top: -15px;
+}
+
+#ContentPlaceHolder1_internSkills, #ContentPlaceHolder1_internQualifications {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+    #ContentPlaceHolder1_internSkills span, #ContentPlaceHolder1_internQualifications span {
+        background-color: aliceblue;
+        font-size: 16px;
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid blue;
+        border-radius: 5px;
+    }
+
+#personalDetails {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    margin: 20px 0 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nameTitle {
+    width: auto;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+#contactDetails {
+    display: inline;
+    line-height: 1.8;
+    vertical-align: text-top;
+    margin-top: 0;
+    text-align: center;
+}
+
+.btnOwn {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.btnOwn:hover {
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 3px 2px lightblue;
+    font-size: 22px;
+}
+
+#orgProfileBody {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #2d03fc;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+#orgProfileBody div {
+    padding-bottom: 20px;
+}
+
+#DivOrgAddress {
+    width: 50%;
+    height: auto;
+    margin-left: 70px;
+}
+
+@media only screen and (max-width: 700px) {
+    #profile-container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    #profileHeader {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+ @media only screen and (max-width: 700px) {
+    #orgProfileBody {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #profileBody {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #ContentPlaceHolder1_internName, #MainContent_orgName {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #ContentPlaceHolder1_internTitle, #MainContent_orgStream {
+        margin-top: -25px;
+    }
+}

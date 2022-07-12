@@ -1,0 +1,42 @@
+﻿.card {
+    margin: 20px 10px 5px 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.internshipQualification, .intnernshipResponsibilities {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.skillsList, .responsibilitiesList {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.skillItem, .responsibilityItem {
+    font-weight: 600;
+    background-color: azure;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.internshipLastDate {
+}
+
+#MainContent_btn-apply {
+    width: 30vh;
+    height: 6vh;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
